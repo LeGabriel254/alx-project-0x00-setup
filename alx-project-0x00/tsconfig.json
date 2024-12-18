@@ -1,22 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "target": "ES6",                      // JavaScript version output
+    "module": "CommonJS",                // Module system used
+    "strict": true,                      // Enables strict type checking
+    "esModuleInterop": true,             // Enables interop between CommonJS and ES modules
+    "skipLibCheck": true,                // Skips type checking of declaration files
+    "outDir": "./dist",                  // Directory for compiled files
+    "rootDir": "./src",                  // Root directory for input files
+    "resolveJsonModule": true,           // Allows importing JSON files
+    "typeRoots": ["./node_modules/@types"] // Specifies type declaration paths
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["src"],                    // Files or directories to include
+  "exclude": ["node_modules", "dist"]    // Files or directories to exclude
 }
