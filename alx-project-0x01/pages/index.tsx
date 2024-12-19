@@ -1,4 +1,4 @@
-import { Header } from "@/components/layout/Header";
+import {Header} from "@/components/layout/Header";
 
 const Home: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const Home: React.FC = () => {
             Get Started
           </button>
 
-        </div>
+  </div>
       </main>
     </div>
   )
