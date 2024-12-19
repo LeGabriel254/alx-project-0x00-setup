@@ -104,7 +104,7 @@ const Card: React.FC = () => {
             <p className="ml-1 text-[12.95px] font-medium">2-4</p>
           </div>
         </div>
-        <p className=" text-[22px] font-semibold">
+        <p className=" text-[22px] font-semibold ml-10 flex">
           $2,450<span className=" text-[14px] text-[#787878]">/n</span>
         </p>
       </div>
